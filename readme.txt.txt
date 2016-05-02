@@ -1,0 +1,1 @@
+﻿http://www.cnblogs.com/c-cloud/p/3224788.html  kmp算法讲解
