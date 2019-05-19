@@ -31,5 +31,6 @@ public class GenerateSubString {
         System.out.println(generator.generate("a"));
         System.out.println(generator.generate("ab"));
         System.out.println(generator.generate("avcd"));
+        System.out.println(generator.generate("12338838371937699632516262388"));
     }
 }
