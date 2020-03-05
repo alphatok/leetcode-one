@@ -43,4 +43,26 @@ public class ListNodeUtil{
 	
 		return head;
 	}
+
+
+
+	public static void main(String[] args) {
+		System.out.println(countNode(new ListNode(2)));
+		System.out.println(countNode(toListNodes(new int[]{1,2,3})));
+		System.out.println(countNode(null));
+	}
+
+	public static int countNode(ListNode listNode) {
+		if (listNode == null) {
+			return 0;
+		}
+
+		int count = 1;
+		while(listNode.next != null){
+			count++;
+			listNode = listNode.next;
+		}
+
+		return count;
+	}
 }
