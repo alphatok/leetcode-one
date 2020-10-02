@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
-import com.leetcode.bruceyang.domain.TreeNode;
-import com.leetcode.bruceyang.util.CollectionUtil;
+import com.alphatok.domain.TreeNode;
+import com.alphatok.util.CollectionUtil;
 
 public class BinaryTreePaths {
 	/**

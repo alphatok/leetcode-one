@@ -1,6 +1,6 @@
 package com.leetcode.bruceyang.easy;
 
-import com.leetcode.bruceyang.util.CollectionUtil;
+import com.alphatok.util.CollectionUtil;
 
 public class RotateArray {
 	public static class Solution{

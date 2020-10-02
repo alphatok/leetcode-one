@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.leetcode.bruceyang.util.CollectionUtil;
+import com.alphatok.util.CollectionUtil;
 
 public class PascalsTriangleII {
 

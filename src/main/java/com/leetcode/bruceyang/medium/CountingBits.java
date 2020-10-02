@@ -1,6 +1,6 @@
 package com.leetcode.bruceyang.medium;
 
-import com.leetcode.bruceyang.util.CollectionUtil;
+import com.alphatok.util.CollectionUtil;
 
 public class CountingBits {
 	public static class Solution {

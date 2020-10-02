@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import com.leetcode.bruceyang.util.CollectionUtil;
+import com.alphatok.util.CollectionUtil;
 
 public class PascalsTriangle {
 	public static class Solution {

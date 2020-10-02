@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.leetcode.bruceyang.domain.TreeNode;
-import com.leetcode.bruceyang.util.TreeNodeUtil;
+import com.alphatok.domain.TreeNode;
+import com.alphatok.util.TreeNodeUtil;
 
 public class MaximumDepthOfBinaryTree {
 	/**

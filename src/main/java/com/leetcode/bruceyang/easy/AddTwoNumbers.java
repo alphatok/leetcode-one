@@ -1,7 +1,8 @@
 package com.leetcode.bruceyang.easy;
 
-import com.leetcode.bruceyang.domain.ListNode;
-import com.leetcode.bruceyang.util.ListNodeUtil;
+
+import com.alphatok.domain.ListNode;
+import com.alphatok.util.ListNodeUtil;
 
 public class AddTwoNumbers {
 

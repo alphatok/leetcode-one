@@ -3,7 +3,7 @@ package com.leetcode.bruceyang.easy;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.leetcode.bruceyang.domain.TreeNode;
+import com.alphatok.domain.TreeNode;
 
 public class MinimumDepthOfBinaryTree {
 	/**

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.leetcode.bruceyang.domain.TreeNode;
-import com.leetcode.bruceyang.util.TreeNodeUtil;
+import com.alphatok.domain.TreeNode;
+import com.alphatok.util.TreeNodeUtil;
 
 public class BinaryTreeLevelOrderTraversal {
 	/**

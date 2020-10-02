@@ -1,7 +1,7 @@
 package com.leetcode.bruceyang.easy;
 
-import com.leetcode.bruceyang.domain.TreeNode;
-import com.leetcode.bruceyang.util.TreeNodeUtil;
+import com.alphatok.domain.TreeNode;
+import com.alphatok.util.TreeNodeUtil;
 
 public class SameTree {
 	/**

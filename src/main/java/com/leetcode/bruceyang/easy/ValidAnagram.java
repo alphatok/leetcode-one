@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.leetcode.bruceyang.util.CollectionUtil;
+import com.alphatok.util.CollectionUtil;
 
 public class ValidAnagram {
 	public static class Solution {

@@ -3,7 +3,7 @@ package com.leetcode.bruceyang.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.leetcode.bruceyang.util.CollectionUtil;
+import com.alphatok.util.CollectionUtil;
 
 public class IsomorphicStrings {
 	public static class Solution {

@@ -1,6 +1,6 @@
 package com.leetcode.bruceyang.easy;
 
-import com.leetcode.bruceyang.domain.TreeNode;
+import com.alphatok.domain.TreeNode;
 
 public class PathSum {
 	/**
