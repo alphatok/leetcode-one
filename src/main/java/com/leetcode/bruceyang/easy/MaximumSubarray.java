@@ -176,6 +176,9 @@ public class MaximumSubarray {
                 max_tmp = max(nums[i], nums[i] + max_tmp);
                 max_global = max(max_tmp, max_global);
             }
+
+            // TODO
+            return max_global;
         }
 
         private int max(int a, int b){

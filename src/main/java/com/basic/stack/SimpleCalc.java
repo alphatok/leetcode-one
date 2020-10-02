@@ -1,4 +1,4 @@
-package com.leetcode.cn.stack;
+package com.basic.stack;
 
 import org.junit.Assert;
 
