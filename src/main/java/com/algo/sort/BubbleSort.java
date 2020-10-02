@@ -2,7 +2,7 @@
 package com.algo.sort;
 
 
-import static com.algo.util.CollectionUtil.swap;
+import static com.alphatok.util.CollectionUtil.swap;
 
 public class BubbleSort implements AscSortInterface, DescSortInterface {
 

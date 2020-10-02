@@ -1,7 +1,7 @@
 package com.algo.sort;
 
 
-import com.algo.util.CollectionUtil;
+import com.alphatok.util.CollectionUtil;
 
 public class BubbleSortRecursive implements AscSortInterface {
 

@@ -1,6 +1,6 @@
 package com.algo.sort;
 
-import com.algo.util.CollectionUtil;
+import com.alphatok.util.CollectionUtil;
 
 public class QuickSort implements AscSortInterface, DescSortInterface {
     @Override

@@ -2,8 +2,8 @@ package com.brzyang.algo.sort;
 
 import com.algo.sort.AscSortInterface;
 import com.algo.sort.DescSortInterface;
-import com.algo.util.CollectionUtil;
-import com.algo.util.StringUtil;
+import com.alphatok.util.CollectionUtil;
+import com.alphatok.util.StringUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;
