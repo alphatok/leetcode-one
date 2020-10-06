@@ -4,7 +4,7 @@ public class FindGreatestSumOfSubArray {
     public static class Solution {
         /**
          * recursive
-         *
+         * NC67 NC19
          * @param array
          * @return
          */

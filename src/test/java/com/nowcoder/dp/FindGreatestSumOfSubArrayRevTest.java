@@ -13,6 +13,7 @@ public class FindGreatestSumOfSubArrayRevTest {
         assertEquals(3, solution.FindGreatestSumOfSubArray(new int[]{1,-1,3}));
         assertEquals(8, solution.FindGreatestSumOfSubArray(new int[]{6,-3,-2,7,-15,1,2,2}));
         assertEquals(6, solution.FindGreatestSumOfSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+        assertEquals(12, solution.FindGreatestSumOfSubArray(new int[]{1, -2, 3, 5, -2, 6, -1}));
     }
 
 }

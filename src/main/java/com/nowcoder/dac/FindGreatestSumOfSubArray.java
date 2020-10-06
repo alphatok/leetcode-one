@@ -31,6 +31,7 @@ public class FindGreatestSumOfSubArray {
 
         /**
          * 左数组的最大后缀和右数组的最大前缀的和
+         * https://www.cnblogs.com/reflecter/p/12032685.html
          * m-1,m, m+1, m+2 (must include m and m+1)
          */
         //
