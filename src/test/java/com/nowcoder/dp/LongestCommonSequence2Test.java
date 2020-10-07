@@ -5,13 +5,14 @@ import org.junit.Test;
 import java.util.HashSet;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
-public class LongestCommonSequenceTest {
+public class LongestCommonSequence2Test {
 
     @Test
     public void test(){
-        LongestCommonSequence.Solution solution = new LongestCommonSequence.Solution();
+        LongestCommonSequence2.Solution solution = new LongestCommonSequence2.Solution();
         {
             assertTrue(solution.LCSAll("1", "2").isEmpty());
         }

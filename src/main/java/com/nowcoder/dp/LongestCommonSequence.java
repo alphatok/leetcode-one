@@ -33,7 +33,7 @@ public class LongestCommonSequence {
         public static char UP = '↑';
         public static char LEFT = '←';
         public static char UP_OR_LEFT = '↖';
-        public static char UP_AND_LEFT = '+';
+        public static char UP_AND_LEFT = '┘';
 
 
         /**
@@ -45,9 +45,9 @@ public class LongestCommonSequence {
          * @param s2 string字符串 the string
          * @return string字符串
          */
-        public String LCS(String s1, String s2) {
+        public List<String> LCSAll(String s1, String s2) {
             if (null == s1 || null == s2){
-                return "-1";
+                return Collections.emptyList();
             }
 
             char[] ch1 = s1.toCharArray();
@@ -83,26 +83,30 @@ public class LongestCommonSequence {
                 }
             }
 
-            System.out.println("\"\" = " + "str1:" + s1 + " s2:" + s2);
+//            System.out.println("\"\" = " + "str1:" + s1 + " s2:" + s2);
             // RETRIEVE
 //            printDpRs(s1, s2, dpRS, backRoute);
-            List<String> lcses = getLCS(ch1, ch2, dpRS, backRoute, lcs);
-            for (int i = 0; i < lcses.size(); i++) {
-                System.out.println(lcses.get(i));
+            if (lcs <= 0) {
+                return Collections.emptyList();
             }
-            System.out.println("");
-            if (lcses.isEmpty()) {
+            List<String> lcses = getLCS(ch1, ch2, backRoute);
+//            for (int i = 0; i < lcses.size(); i++) {
+//                System.out.println(lcses.get(i));
+//            }
+//            System.out.println("");
+            return lcses;
+        }
+
+        public String LCS(String s1, String s2) {
+            List<String> all = LCSAll(s1, s2);
+            if (all.isEmpty()) {
                 return "-1";
             }else{
-                return lcses.get(0); // choose any one
+                return all.get(0);
             }
         }
 
-        private List<String> getLCS(char[] ch1, char[] ch2, int[][] dpRS, char[][] backRoute, int maxLen) {
-            if (maxLen <= 0) {
-                return Collections.emptyList();
-            }
-
+        private List<String> getLCS(char[] ch1, char[] ch2, char[][] backRoute) {
             Set<String> lcses = new HashSet<>();
             Stack<Character> pathStack = new Stack<>();
             Stack<Stack<Character>> prePathStack = new Stack<>();
