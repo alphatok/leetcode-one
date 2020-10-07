@@ -51,13 +51,16 @@ public class FindGreatestSumOfSubArray {
 
 
         /**
+         * https://blog.csdn.net/lw_power/article/details/80892362
+         *
+         *
          * loop form
          * @param array
          * @return
          */
         public int FindGreatestSumOfSubArray2(int[] array) {
             // f(i) = max(f(i - 1) + arr[i], arr[i]) 第I个数结尾的 连续数字之和
-            // 伴随数组，记忆
+            // 伴随数组，记忆(可省略)
             int[] res = new int[array.length];
             // init as smallest
             for (int i = 0; i < array.length; i++){
